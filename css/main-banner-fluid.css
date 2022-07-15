@@ -1,0 +1,52 @@
+.banner__fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(../img/bg_fruits.webp);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin: 0;
+}
+
+.banner__fluid-title {
+    color: var(--banner__fluid-title-color);
+    font-weight: 1000;
+    font-size: 60px;
+    padding-bottom: 35px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+@media (min-width: 500px) {
+    .banner__fluid-title {
+        font-size: 80px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+.banner__fluid-text {
+    color: var(--banner__fluid-text-color);
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.banner__fluid-button {
+    color: var(--banner__fluid-button-text-color);
+    background-color: var(--banner__fluid-button-background-color);
+    padding: 16px 40px;
+    border-radius: 5px;
+    text-decoration-line: none;
+}
+
+.banner__fluid-button:hover {
+    color: var(--banner__fluid-button-hover-color);
+    background-color: var(--banner__fluid-button-hover-bg-color);
+    transition: 0.5s;
+}
